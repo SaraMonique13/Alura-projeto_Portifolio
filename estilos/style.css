@@ -50,6 +50,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .texto-apresentação{
@@ -116,4 +117,10 @@ body{
 
 .imagem-apresentação{
     width: 50%;
+}
+
+@media  (max-width:1200px){
+    .apresentação{
+        flex-direction: column-reverse;
+    }
 }
